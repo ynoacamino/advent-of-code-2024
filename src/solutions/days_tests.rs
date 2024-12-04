@@ -5,9 +5,13 @@ mod tests {
 
     #[test]
     fn test_day1_1() {
-        read_input("day1.txt")
-            .iter()
-            .for_each(|s| println!("{}", s));
-        day1::day1_1();
+        let input = read_input("day1.txt");
+        day1::day1_1(input);
+    }
+
+    #[test]
+    fn test_day1_2() {
+        let input = read_input("day1.txt");
+        day1::day1_2(input);
     }
 }
