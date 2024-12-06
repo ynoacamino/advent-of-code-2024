@@ -5,6 +5,7 @@ mod tests {
     use super::super::day2;
     use super::super::day3;
     use super::super::day4;
+    use super::super::day5;
 
     #[test]
     fn test_day1_1() {
@@ -52,5 +53,17 @@ mod tests {
     fn test_day4_2() {
         let input = read_input("day4.txt");
         day4::day4_2(input);
+    }
+
+    #[test]
+    fn test_day5_1() {
+        let input = read_input("day5.txt");
+        day5::day5_1(input);
+    }
+
+    #[test]
+    fn test_day5_2() {
+        let input = read_input("day5.txt");
+        day5::day5_2(input);
     }
 }

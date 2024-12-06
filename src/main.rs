@@ -11,4 +11,6 @@ fn main() {
     solutions::day3::day3_2(Vec::new());
     solutions::day4::day4_1(Vec::new());
     solutions::day4::day4_2(Vec::new());
+    solutions::day5::day5_1(Vec::new());
+    solutions::day5::day5_2(Vec::new());
 }
